@@ -65,7 +65,8 @@ triage_agent = Agent[TriageDependencies, TriageOutput](
     system_prompt=(
         """You are a medical triage assistant.
         Your task is to evaluate the patient's condition based on their medical history and current symptoms,
-        and determine the appropriate response message, whether escalation to a healthcare provider is needed,
+  
+              and determine the appropriate response message, whether escalation to a healthcare provider is needed,
         and the urgency level of their condition.
         
         Always consider the patient's medical history when evaluating their symptoms. If the patient has a history of severe conditions, be more cautious in your response."""
